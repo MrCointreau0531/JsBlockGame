@@ -12,7 +12,7 @@ const ball = {x: canvas.width / 2, y: canvas.height - 30, dx: 2, dy: -2, radius:
 const paddle = {width: 75, height: 10, x: (canvas.width - 75) / 2, color: "#333", offsetBottom: 40 };
 
 // ブロックの設定
-const brickConfig = {rowCount: 3, columnCount: 5, width: 75, height: 20, padding: 10, offsetTop: 30, offsetLeft: 30};
+const brickConfig = {rowCount: 7, columnCount: 5, width: 75, height: 20, padding: 10, offsetTop: 30, offsetLeft: 30};
 
 // 死んでいるブロックの個数
 let deadBlockCount = 0;
