@@ -1,5 +1,4 @@
 
-
 /** @type {HTMLCanvasElement} */ // JSDocでエディタに型を教える
 const canvas = document.querySelector(".myCanvas");
 const context = canvas.getContext("2d");
