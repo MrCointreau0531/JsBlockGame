@@ -14,7 +14,7 @@ const paddle = {width: 75, height: 10, x: (canvas.width - 75) / 2, color: "#333"
 // ブロックの設定
 const brickConfig = {rowCount: 3, columnCount: 5, width: 75, height: 20, padding: 10, offsetTop: 30, offsetLeft: 30};
 
-// 死んでいるブロックの個数 (難易度調整用)
+// 死んでいるブロックの個数
 let deadBlockCount = 0;
 
 // ブロックの初期化
